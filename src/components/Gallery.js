@@ -32,9 +32,9 @@ const Gallery = () => {
     <section className="gallery">
       <h2 className="section-title">Gallery</h2>
       <div className="gallery-wrapper">
-        {images.map((image) => {
-          <GalleryItem key={image.id} image={image} />;
-        })}
+        {images.map((image) => (
+          <GalleryItem key={image.id} image={image} />
+        ))}
       </div>
     </section>
   );

@@ -32,8 +32,8 @@ const Navbar = () => {
           <Link to="/">iMMEMORIAL</Link>
         </h2>
       </div>
-      <div className="favorite-liks" ref={favRef}>
-        <Link to>Favorite</Link>
+      <div className="blog-liks" ref={favRef}>
+        <Link to>Blog</Link>
       </div>
     </nav>
   );
