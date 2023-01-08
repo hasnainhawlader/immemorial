@@ -23,17 +23,16 @@ const Navbar = () => {
         <li ref={li2}>
           <Link to="/about">About</Link>
         </li>
-        <li ref={li3}>
-          <Link to="/gallery">Gallery</Link>
-        </li>
       </ul>
       <div className="logo" ref={logoRef}>
         <h2>
           <Link to="/">iMMEMORIAL</Link>
         </h2>
       </div>
-      <div className="blog-liks" ref={favRef}>
-        <Link to>Blog</Link>
+      <div>
+        <li ref={li3}>
+          <Link to="/gallery">Gallery</Link>
+        </li>
       </div>
     </nav>
   );
